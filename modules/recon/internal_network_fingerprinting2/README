@@ -1,0 +1,37 @@
+JenScan
+========
+Javascript Enhanced Network scanner
+Created by R.Somers 2012
+
+
+This is a lan reconnaisance tool, running in javascript and 
+only employing the Image Object src attribute and subsequent onload 
+and onerror event handling.
+
+It aims to be more performant then existing implementations by utilising
+
++ image lsit optimisation
++ ip list optimisation (todo)
++ time fingerprinting
+
+
+USAGE
+=====
+drop the folder on a webserver as a whole and edit the the index.html file to your liking
+just include the following line
+
+<script type="text/javascript" src="main.js"></script>
+
+You might also want to edit settings.js to reflect the target Class C subnet (or replace it with a function that retrieves it)
+
+
+
+As is now the results are piped to a txtarea fiels, should you like other reporting options (e.g.: sending them back to the server),
+alter the function scanner_log() in scanner.js
+
+
+
+Should you encounter any issues on these or any other browser version, drop me a line.
+>>s p a m h o l e [A T] t e le ne t.b e<<
+
+
